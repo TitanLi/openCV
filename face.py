@@ -16,7 +16,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # detectMultiScale(image[, scaleFactor[, minNeighbors[, flags[, minSize[, maxSize]]]]])
 # image:檢測對象CV_8U輸入矩陣的圖像
 # scaleFactor:指定每個圖像比例縮小圖像大小的參數
-# minNeighbors:指定每個候選矩形應該保留多少個鄰居的參數。 此參數將影響檢測到的人臉質量：較高的值會導致較少的檢測，但質量較高。
+# minNeighbors:指定每個候選矩形應該保留多少個鄰居的參數。 此參數將影響檢測到的人臉質量：較高的值會導致較少的檢測，但質量較高
 # flags:與舊版級聯分類器模型函數cvHaarDetectObjects的flags相同.此參數不被用於新版模型。(可省略)
 # minSize:最小可能的對象的大小，小於的對象將被忽略
 # maxSize:最大可能的對象的大小，大於的對象將被忽略
